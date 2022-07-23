@@ -5,9 +5,7 @@ using UnityEngine;
 
 /*
  * **********************************************************************
- * Project  : Flask
  * Author   : https://monoflauta.com/2021/07/27/11-useful-unity-c-extension-methods/
- * DevTeam  : Antoine-Olivier Monaco, Gabriel Kirouac, Laurent Montreuil
  * Date     : 30/03/2022
 
  * Brief    : Extensions methods of C# Librairies

@@ -68,7 +68,9 @@ public class InfoBoxManager<BoxType,BoxContent>
         if (!_infoBoxPrefab || component == null || _infoBoxPrefab.GetComponent<BoxType>().GetType() != typeof(BoxType))
         {
             Debug.LogError("The info box prefab:" + _infoBoxPrefab.name + typeof(BoxType) + " Component");
+#if UNITY_EDITOR
             EditorUtility.DisplayDialog("Error", "The info box prefab: " + _infoBoxPrefab.name + " requires a " + typeof(BoxType) + " Component", "Ok boyo");
+#endif
         }
     }
 
